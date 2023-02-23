@@ -1,0 +1,42 @@
+from -> used to import modules int othe current namespace
+and -> results into True only if both the operands are True
+del -> is used to delete the reference to an object
+not -> inverts a value(not True=False)
+while -> used in looping, while a value is something, continue the block
+as - used to create an alias while import a module
+elif - 2nd condition in an if statement
+global - declares that a variable inside the function is global
+or -> result to True if any of the operands are True
+with - used to wrap the execution of a block of code within methods defined by the context manager
+assert - used for debugging purposes
+else - final condition in if / else statement
+if - first condition in if / else statement
+pass - null statement, used as a placehold
+*yield - used inside a function like a return statement. Returns a generator
+generator - an iterator that generates one item at a times 
+  --> g = (2**x for x in range(100))
+break - alter behavior of for or while loops
+exceptions - errors that suggest something went wrong while executing a program (except, raise, try)
+except - used in try/except blocks to catch exceptions or errors
+import - used to import modules into the current file (import boto3)
+print - like console.log(), a built-in python function to display arguments to console
+class - defines a new user-defined class
+Class - collection of related attributes and methods that represent a real-world situation. Central concept to OOP
+exec() - allows you to execute arbitrary python code from a string or compiled code input
+in - used to test if a sequence (list, tuple, string) contains a value. 
+  a = [1, 2, 3]
+  5 in a
+  True
+raise - allows you to throw an exception at any time
+continue - causes to end the current iteration of the loop, but not the whole loop
+finally - used in try/except blocks to close up resources or file streams. Ensures the block of code inside it gets executed even if theres an unhandled exception
+is - used to test object identity (True is True)
+return - used inside a function to exit it and return a value
+def - used to define a user-defined function
+for - used in a loop, generally when we know the number of times we want to loop (for i in 10)
+lambda - used to create an anonymous function (func with no name). It is an inline function that does not contain a return statement. 
+try - used with exceptions in python. Typically try is attempted first, then except. 
+  try: A + B
+  except: 
+    print('A is not defined')
+

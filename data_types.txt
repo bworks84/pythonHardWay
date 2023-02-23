@@ -1,0 +1,11 @@
+# Write out what makes up each data type. 
+
+True = truth values. Results of comparison or logical operations
+False = truth values. Results of comparison or logical operations
+None = special constant in Python that represents the absence of a value or a null value
+strings = strings are made up of characters inside single or double quotes. 
+numbers = Python supports integers, floats, and complex numbers. 
+int = holds signed integers of non-limited length
+float = floating decimal points and it's accurate up to 15 decimal places
+complex = more algabraic type equations (8 + 3j) is of type complex 
+lists = store multiple data at once, enclosed with [0, 1, 2, 3] and separated with commas
