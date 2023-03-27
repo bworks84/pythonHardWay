@@ -2,10 +2,24 @@
 
 Python uses C-style string formatting to create new, formatted strings. The % operator is used to format a set of variables enclosed in a 'tuple (fixed sized list), together with a format string, which contains normal text together with an argument specifier like %s
 
+------------------------------------------------------
+name = Bob
+*Old format 'Hello, %s' % name -> 'Hello, Bob'
+
+***New format 'Hello, {}'.format(name) -> 'Hello, Bob'
+
+***String Interpolation / f-strings (python 3.6+)
+f'Hello, {name}' -> 'Hello, Bob' ****
+
+
+-------------------------------------------------------
+%i = signed integer decimal
+
 %d = Integers
+num = 5 
+"We have %d chickens." -> We have 5 chickens
 
 %e/E = exponents
-
 
 %f = Floating point numbers
 

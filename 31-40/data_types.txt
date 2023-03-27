@@ -9,3 +9,16 @@ int = holds signed integers of non-limited length
 float = floating decimal points and it's accurate up to 15 decimal places
 complex = more algabraic type equations (8 + 3j) is of type complex 
 lists = store multiple data at once, enclosed with [0, 1, 2, 3] and separated with commas
+
+# String Escape Sequences
+
+\\ - backslash
+\' - single quote ('It\'s alright) -> It's alright
+\" - double quotes ("We are so called "Vikings") -> We are so called "Vikings"
+\a - ASCII Bell (BEL) - control char with value of 7 generally causes a beep or buzzer to sound when printed to a terminal window
+\b - ASCII Backspace
+\f - form feed 
+\n - newline
+\r - carriage return (like a \n)
+\t - tab
+\v - ASCII Vertical Tab
